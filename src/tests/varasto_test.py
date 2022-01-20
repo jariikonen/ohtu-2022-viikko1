@@ -71,4 +71,4 @@ class TestVarasto(unittest.TestCase):
     def test_str_antaa_oikean_merkkijonon(self):
         saldo = 5
         self.varasto.lisaa_varastoon(saldo)
-        self.assertEqual(str(self.varasto), "saldo = 6, vielä tilaa 5")
+        self.assertEqual(str(self.varasto), "saldo = 5, vielä tilaa 5")
